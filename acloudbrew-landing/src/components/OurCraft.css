@@ -1,0 +1,28 @@
+.our-craft {
+  padding: 40px;
+  background-color: #f5f5dc; /* Light cream */
+  color: #4b2e2e; /* Dark brown */
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.our-craft h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.our-craft p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.our-craft section {
+  margin-bottom: 40px;
+}
+
+.our-craft hr {
+  border: none;
+  border-top: 2px solid #4b2e2e;
+  margin: 20px 0;
+} 

@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc; /* Light cream */
+  color: #4b2e2e; /* Dark brown */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h1, h2 {
+  color: #4b2e2e;
+}
+
+p {
+  line-height: 1.6;
+}

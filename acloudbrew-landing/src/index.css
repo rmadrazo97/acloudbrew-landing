@@ -1,3 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 43 38% 95%;
+    --foreground: 25 40% 15%;
+ 
+    --card: 43 38% 95%;
+    --card-foreground: 25 40% 15%;
+ 
+    --popover: 43 38% 95%;
+    --popover-foreground: 25 40% 15%;
+ 
+    --primary: 25 60% 36%;
+    --primary-foreground: 43 38% 95%;
+ 
+    --secondary: 30 25% 85%;
+    --secondary-foreground: 25 40% 15%;
+ 
+    --muted: 30 25% 85%;
+    --muted-foreground: 25 30% 35%;
+ 
+    --accent: 30 55% 60%;
+    --accent-foreground: 25 40% 15%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 30% 85%;
+    --input: 30 30% 85%;
+    --ring: 25 40% 30%;
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 25 40% 8%;
+    --foreground: 43 38% 95%;
+ 
+    --card: 25 40% 10%;
+    --card-foreground: 43 38% 95%;
+ 
+    --popover: 25 40% 10%;
+    --popover-foreground: 43 38% 95%;
+ 
+    --primary: 30 55% 60%;
+    --primary-foreground: 25 40% 15%;
+ 
+    --secondary: 25 40% 20%;
+    --secondary-foreground: 43 38% 95%;
+ 
+    --muted: 25 40% 20%;
+    --muted-foreground: 25 30% 65%;
+ 
+    --accent: 30 50% 30%;
+    --accent-foreground: 43 38% 95%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+ 
+    --border: 25 40% 16%;
+    --input: 25 40% 16%;
+    --ring: 35 50% 55%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
