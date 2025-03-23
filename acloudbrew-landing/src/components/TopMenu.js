@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Coffee } from 'lucide-react';
 import { Button } from './ui/button';
-import { Sheet, SheetContent } from './ui/sheet';
 import { cn } from '../lib/utils';
 
 const TopMenu = () => {
@@ -39,7 +38,7 @@ const TopMenu = () => {
       )}
     >
       {/* Logo */}
-      <a href="#" className="font-bold text-xl md:text-2xl transition-colors flex items-center">
+      <a href="#home" className="font-bold text-xl md:text-2xl transition-colors flex items-center">
         <Coffee className="h-6 w-6 mr-2 text-coffee-dark" />
         <span className="text-coffee-dark">A</span>
         <span className="text-coffee-dark">CloudBrew</span>
@@ -85,7 +84,7 @@ const TopMenu = () => {
           >
             <div className="flex flex-col h-full p-6" style={{ backgroundColor: '#FBF7E9' }}>
               <div className="flex items-center justify-between mb-8">
-                <a href="#" className="font-bold text-xl flex items-center">
+                <a href="#home" className="font-bold text-xl flex items-center">
                   <Coffee className="h-5 w-5 mr-2 text-coffee-dark" />
                   <span className="text-coffee-dark">ACloudBrew</span>
                 </a>

@@ -43,15 +43,15 @@ const Footer = () => {
                   Your partner in cloud infrastructure. We help you build, deploy and scale your applications with ease.
                 </p>
                 <div className="flex space-x-4 pt-1">
-                  <a href="#" className="text-coffee-light hover:text-coffee-accent transition-colors">
+                  <a href="https://twitter.com" className="text-coffee-light hover:text-coffee-accent transition-colors">
                     <Twitter className="h-5 w-5" />
                     <span className="sr-only">Twitter</span>
                   </a>
-                  <a href="#" className="text-coffee-light hover:text-coffee-accent transition-colors">
+                  <a href="https://github.com" className="text-coffee-light hover:text-coffee-accent transition-colors">
                     <Github className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>
                   </a>
-                  <a href="#" className="text-coffee-light hover:text-coffee-accent transition-colors">
+                  <a href="https://youtube.com" className="text-coffee-light hover:text-coffee-accent transition-colors">
                     <Youtube className="h-5 w-5" />
                     <span className="sr-only">YouTube</span>
                   </a>
@@ -64,22 +64,22 @@ const Footer = () => {
             title="Solutions & Resources" 
             content={
               <div className="grid grid-cols-2 gap-x-4 gap-y-2 pt-2">
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/services/managed-cloud" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Managed Cloud
                 </a>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/resources/documentation" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Documentation
                 </a>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/services/devops-automation" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   DevOps Automation
                 </a>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/blog" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Blog
                 </a>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/services/cloud-security" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Cloud Security
                 </a>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/resources/tutorials" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Tutorials
                 </a>
               </div>
@@ -118,15 +118,15 @@ const Footer = () => {
             </p>
             
             <div className="flex space-x-4">
-              <a href="#" className="text-coffee-light hover:text-coffee-accent transition-colors">
+              <a href="https://twitter.com" className="text-coffee-light hover:text-coffee-accent transition-colors">
                 <Twitter className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </a>
-              <a href="#" className="text-coffee-light hover:text-coffee-accent transition-colors">
+              <a href="https://github.com" className="text-coffee-light hover:text-coffee-accent transition-colors">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>
-              <a href="#" className="text-coffee-light hover:text-coffee-accent transition-colors">
+              <a href="https://youtube.com" className="text-coffee-light hover:text-coffee-accent transition-colors">
                 <Youtube className="h-5 w-5" />
                 <span className="sr-only">YouTube</span>
               </a>
@@ -138,27 +138,27 @@ const Footer = () => {
             <h3 className="font-medium text-lg mb-4">Solutions</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/services/managed-cloud" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Managed Cloud
                 </a>
               </li>
               <li>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/services/devops-automation" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   DevOps Automation
                 </a>
               </li>
               <li>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/services/serverless-architecture" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Serverless Architecture
                 </a>
               </li>
               <li>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/services/cloud-security" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Cloud Security
                 </a>
               </li>
               <li>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/services/disaster-recovery" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Disaster Recovery
                 </a>
               </li>
@@ -170,27 +170,27 @@ const Footer = () => {
             <h3 className="font-medium text-lg mb-4">Resources</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/resources/documentation" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Documentation
                 </a>
               </li>
               <li>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/blog" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/community" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Community Forum
                 </a>
               </li>
               <li>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/resources/tutorials" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   Tutorials
                 </a>
               </li>
               <li>
-                <a href="#" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
+                <a href="/resources/api" className="text-coffee-light/70 hover:text-coffee-accent transition-colors text-sm">
                   API Reference
                 </a>
               </li>
@@ -220,13 +220,13 @@ const Footer = () => {
             © {currentYear} ACloudBrew. All rights reserved.
           </div>
           <div className="flex flex-wrap gap-x-4 md:gap-x-6 gap-y-1 md:gap-y-2">
-            <a href="#" className="hover:text-coffee-accent transition-colors">
+            <a href="/terms" className="hover:text-coffee-accent transition-colors">
               Terms
             </a>
-            <a href="#" className="hover:text-coffee-accent transition-colors">
+            <a href="/privacy" className="hover:text-coffee-accent transition-colors">
               Privacy
             </a>
-            <a href="#" className="hover:text-coffee-accent transition-colors">
+            <a href="/cookies" className="hover:text-coffee-accent transition-colors">
               Cookies
             </a>
           </div>
