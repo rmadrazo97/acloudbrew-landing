@@ -109,11 +109,17 @@ const SheetContent = React.forwardRef(
         <SheetOverlay 
           data-state={isOpen ? "open" : "closed"}
           onClick={() => props.onClose && props.onClose()}
+          className="z-[100]"
         />
         <div
           ref={ref}
           data-state={isOpen ? "open" : "closed"}
           className={cn(sheetVariants({ side }), className)}
+          style={{
+            backgroundColor: '#FBF7E9', 
+            zIndex: 200,
+            boxShadow: '-10px 0 30px rgba(0,0,0,0.15)'
+          }}
           {...props}
         >
           {children}

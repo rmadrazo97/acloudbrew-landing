@@ -75,16 +75,15 @@ const TopMenu = () => {
         <Menu className="h-5 w-5" />
       </Button>
 
-      {/* Mobile Navigation */}
-      <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
-        {({ isOpen, setIsOpen }) => (
-          <SheetContent 
-            side="right" 
-            className="p-0 bg-coffee-cream border-coffee-light" 
-            data-state={isOpen ? "open" : "closed"}
-            onClose={() => setIsOpen(false)}
+      {/* Mobile Navigation - Simple Fixed Approach */}
+      {isMobileMenuOpen && (
+        <div className="fixed inset-0 bg-black/50 z-[90] md:hidden" onClick={() => setIsMobileMenuOpen(false)}>
+          <div 
+            className="fixed inset-y-0 right-0 w-[80%] max-w-[350px] bg-coffee-cream z-[100]"
+            onClick={(e) => e.stopPropagation()}
+            style={{ backgroundColor: '#FBF7E9' }}
           >
-            <div className="flex flex-col h-full p-6">
+            <div className="flex flex-col h-full p-6" style={{ backgroundColor: '#FBF7E9' }}>
               <div className="flex items-center justify-between mb-8">
                 <a href="#" className="font-bold text-xl flex items-center">
                   <Coffee className="h-5 w-5 mr-2 text-coffee-dark" />
@@ -123,9 +122,9 @@ const TopMenu = () => {
                 </Button>
               </div>
             </div>
-          </SheetContent>
-        )}
-      </Sheet>
+          </div>
+        </div>
+      )}
     </header>
   );
 };
