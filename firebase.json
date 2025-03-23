@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "acloudbrew-landing/build",
     "ignore": [
       "firebase.json",
       "**/.*",
